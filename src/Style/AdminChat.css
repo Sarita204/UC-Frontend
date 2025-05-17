@@ -1,0 +1,134 @@
+.containerChat {
+    /* display: flex; */
+    /* flex-direction: column; */
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 0 25%;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .avatar {
+    width: 35px;
+    height: 35px;
+  }
+  .IconeStyle{
+    font-size: 30px;
+    color: green;
+  }
+  .userName {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .messages {
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  
+  .fromUser {
+    background-color: #007aff;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: auto;
+    max-width: 380px;
+  }
+  .MessageImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .MessageVideo{
+    width: 268px;
+    height: 198px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .fromOther {
+    background-color: #435088;
+    /* margin-right: 15%; */
+    margin-left: 8px;
+    border-radius: 10px;
+    width: fit-content;
+    max-width: 380px;
+}   
+  
+  .messageText {
+    color: white;
+    padding: 4px 10px;
+    font-weight: 600;
+  }
+  
+  .FromDate {
+    float: right;
+    margin-bottom: 10px; 
+    /* margin-left: 15%; */
+    margin-right: 11px;
+    font-size: 12px;
+  }
+
+  .ToDate {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-right: 8px;
+    font-size: 12px;
+  }
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    gap: 5px;
+  }
+  
+  .input {
+    flex: 1;
+    background-color: white;
+    border-radius: 20px;
+    padding: 9px  15px;
+    height: 44px;
+    border: 1px solid #ccc;
+  }
+  
+  .sendButton {
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .sendButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .ArrowButton{
+    position: absolute;
+    margin-top: -125px;
+    background: white;
+    padding: 10px;
+    margin-left: 0px;
+    border-radius: 10px;
+  }
+  .CirclButton{
+    font-size: 30px;
+    color: rgb(8, 8, 116);
+    /* background-color: white; */
+    position: absolute;
+    margin-left: 5px;
+   
+  }

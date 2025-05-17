@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h3 {
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 25px;
+  /* font-family: "Aclonica", sans-serif; */
+}
+h6 {
+  font-size: 20px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+  .otp-diff.differ-0 input {
+    margin: unset !important;
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .footer {
+    height: 495px !important;
+  }
+}

@@ -1,0 +1,230 @@
+/* Checkout */
+
+/* .view-wrap{
+    background:#080874 ;
+  border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .button{
+    background:#083a87 ;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 10px;
+  } */
+
+  .view-wrap{
+    background-color: #080874;
+    border: 1px solid #080874;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button{
+    background: #080874;
+    color: white;
+    padding: 10px 35px;
+    border: 1px solid #080874;
+    border-radius: 10px;
+}
+.offered-title {
+    padding: 20px 0 20px  0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: navy;
+  }
+
+/* loginpage */
+
+/* checkout and loginpage responsive */
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+.items{
+    display: flex;
+    gap: 5px;
+}
+.getservice{
+/* display: flex; */
+}
+.express{
+    /* display: flex; */
+    /* gap: 3px;   */
+}
+.back{
+   position: relative;
+   bottom: 27px;
+    
+}
+.itemscard{
+    width: auto !important;
+    gap: 5px !important;
+}
+.cancellation{
+    width: 23% !important;
+    margin-bottom: 30px !important;
+}
+.total h5{
+    font-size: 14px;
+}
+.home1{
+    width: 58px !important;
+ }
+ .other{
+     width: 58px !important;
+     margin-left: 0rem !important;
+ }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .items{
+        display: flex;
+        gap: 5px;
+    }
+    .getservice{
+    display: flex;
+    }
+    .express{
+        display: flex;
+        /* gap: 3px;   */
+    }
+    .back{
+       position: absolute;
+       /* bottom: 27px;   */
+       right: 20px;
+    }
+    .address{
+        position: relative;
+
+    }
+    .itemscard{
+        width: auto !important;
+        gap: 5px !important;
+    }
+    .cancellation{
+        width: 26% !important;
+        margin-bottom: 30px !important;
+    }
+    .total h5{
+        font-size: 14px;
+    }
+    .time1{
+        padding: 3px !important;
+    }
+    /* .time2{
+        padding: 3px !important;
+    } */
+    .time3{
+        padding: 1px !important;
+    }
+    .home1{
+       width: 58px !important;
+    }
+    .other{
+        width: 58px !important;
+        margin-left: 1rem !important;
+    }
+    .form-control {
+        /* border: 2px solid #dee2e6 !important;
+        outline-width: 0px !important; */
+        width: 230px !important;
+      }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .items{
+        display: flex;
+        gap: 5px;
+    }
+    .getservice{
+    display: flex;
+    }
+    .express{
+        display: flex;
+        /* gap: 3px;   */
+    }
+    .back{
+       position: relative;
+       bottom: 27px;
+        
+    }
+    .itemscard{
+        width: auto !important;
+        gap: 5px !important;
+    }
+    .cancellation{
+        width: 26% !important;
+        margin-bottom: 30px !important;
+    }
+    .total h5{
+        font-size: 14px;
+    }
+    .time1{
+        padding: 3px !important;
+    }
+    .time3{
+        padding: 1px !important;
+    }
+    .home1{
+       width: 58px !important;
+    }
+    .other{
+        width: 58px !important;
+        margin-left: 1rem !important;
+    }
+    .form-control {
+        width: 230px !important;
+      }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+    .items{
+        display: flex;
+        gap: 5px;
+    }
+    .getservice{
+    display: flex;
+    }
+    .express{
+        display: flex;
+        /* gap: 3px;   */
+    }
+    .back{
+       position: relative;
+       bottom: 27px;
+        
+    }
+    .itemscard{
+        width: auto !important;
+        gap: 5px !important;
+    }
+    .cancellation{
+        width: 20% !important;
+        margin-bottom: 30px !important;
+    }
+    .total h5{
+        font-size: 14px;
+    }
+    .time1{
+        padding: 3px !important;
+    }
+    .time3{
+        padding: 1px !important;
+    }
+    .home1{
+       width: 58px !important;
+    }
+    .other{
+        width: 58px !important;
+        margin-left: 0rem !important;
+    }
+    .form-control {
+        width: 230px !important;
+      }
+
+}
+  

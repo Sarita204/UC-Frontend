@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Cairo:wght@200;300;400;500;600;700;800;900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Kanit:ital,wght@0,100;0,700;1,600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600&family=Piazzolla:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,800;0,900;1,100;1,800&family=Roboto:ital,wght@0,700;0,900;1,100;1,500&family=Space+Grotesk:wght@300;400;500;600;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  /* font-family: "Aclonica", sans-serif;
+  font-family: "Cairo", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Piazzolla", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  font-family: "Work Sans", sans-serif; */
+}
+
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.pac-container {
+  z-index: 9999 !important;
+}
+
+.css-dip3t8 {
+  /* background-color: #3b6f7c !important; */
+  background-color: #080874 !important;
+}
+
+.relative.inline-flex span {
+  position: absolute;
+  background-color: red;
+  border-radius: 100%;
+  height: 21px;
+  width: 21px;
+  top: 6px;
+  right: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.css-1wvake5 {
+  width: 300px !important;
+  min-width: 151px !important;
+  height: 100vh;
+}
+
+.css-1t8x7v1>.ps-menu-button:hover {
+  background-color: #fffeea !important;
+  color: #080874 !important;
+}
+
+.css-16jesut .ps-menu-label:hover {
+  /* background-color: transparent !important; */
+  color: #080874 !important;
+}
+
+.css-1t8x7v1 .ps-menu-button {
+  /* background-color: transparent !important; */
+  padding: 0 10px 0 10px !important;
+}
+
+.css-16jesut>.ps-menu-button:hover {
+  background-color: none !important;
+}
+
+.css-16jesut {
+  margin-left: 15px !important;
+}
+
+.css-16jesut>.ps-menu-button {
+  padding-left: 5px !important;
+}
+
+.css-1tqrhto>.ps-menu-button {
+  padding-left: 8px !important;
+}
+
+.sub-menu:hover {
+  background-color: #fffeea !important;
+}
+
+p {
+  margin: 0;
+}
+
+.active.page-item a {
+  background-color: #080874 !important;
+  border: #080874 !important;
+}
+
+.btn-primary {
+  background-color: #080874 !important;
+  border-color: #080874 !important;
+}
+
+.subadminsubtitle {
+  color: #080874;
+  text-shadow: 0 0 0 red;
+  font-weight: bold;
+}
+
+.addsubadmin {
+  border: 1px solid #080874;
+  padding: 30px 0px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: #fffeea;
+}
+
+.addsubadmin1 {
+  justify-content: center;
+  display: flex;
+}
+
+.addsubadminlabel {
+  text-align: left;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.addsubadmininput {
+  margin: 10px 0px;
+}
+
+.addsubadmininput input {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 0px;
+  width: 100%;
+  border-color: black;
+}
+
+.addsubadmincheckbox {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+  margin-top: 50px;
+  color: black;
+}
+
+.addsubadminbtn {
+  text-align: right;
+  margin: 25px 100px 0px;
+}
+
+input {
+  border: 2px solid #dee2e6;
+  outline-width: 0px;
+  padding: 7px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-control {
+  border: 2px solid #dee2e6 !important;
+  outline-width: 0px !important;
+  /* width: 251px !important; */
+}
+
+.mmffd {
+  position: sticky;
+  top: 0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: -7px;
+  left: 70px;
+  display: flex !important;
+}
+
+.react-bootstrap-table-page-btns-ul {
+  display: none !important;
+}
+
+.offcanvas.show:not(.hiding),
+.offcanvas.showing {
+  transform: none;
+  z-index: 9999999 !important;
+  width: 100%;
+}
+
+.css-1qsxih2 {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .css-1qsxih2 {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+}
+
+.react-bootstrap-table-pagination-total {
+  display: none !important;
+}

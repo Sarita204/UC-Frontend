@@ -1,0 +1,94 @@
+{
+  "name": "urban",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.23.4",
+    "@ckeditor/ckeditor5-build-classic": "^38.1.0",
+    "@ckeditor/ckeditor5-react": "^6.1.0",
+    "@emotion/react": "^11.11.1",
+    "@material-tailwind/react": "^2.0.1",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.5",
+    "@react-google-maps/api": "^2.19.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react-native-phone-input": "^0.2.7",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "country-state-city": "^3.2.1",
+    "crypto-js": "^4.2.0",
+    "export-from-json": "^1.7.2",
+    "howler": "^2.2.4",
+    "html-react-parser": "^4.0.0",
+    "html2canvas": "^1.4.1",
+    "indian-cities": "^1.0.0",
+    "jspdf": "^2.5.1",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-bootstrap-table2-toolkit": "^2.1.3",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18.2.0",
+    "react-dynamic-star": "^0.0.2",
+    "react-export-table-to-excel": "^1.0.6",
+    "react-google-autocomplete": "^2.7.3",
+    "react-grid-carousel": "^1.0.1",
+    "react-icons": "^4.9.0",
+    "react-js-pagination": "^3.0.3",
+    "react-magic-slider-dots": "^1.2.2",
+    "react-multi-carousel": "^2.8.4",
+    "react-otp-input": "^3.0.2",
+    "react-owl-carousel": "^2.3.3",
+    "react-paginate": "^8.2.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-phone-number-input": "^3.3.8",
+    "react-pro-sidebar": "^1.1.0-alpha.1",
+    "react-razorpay": "^1.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.12.1",
+    "react-scripts": "^5.0.1",
+    "react-scroll-trigger": "^0.6.14",
+    "react-slick": "^0.29.0",
+    "react-star-ratings": "^2.3.0",
+    "react-tilt": "^1.0.2",
+    "redux": "^5.0.1",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^4.7.5",
+    "swiper": "^9.3.2",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts --max_old_space_size=4096 start",
+    "build": "react-scripts --max_old_space_size=4096 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

@@ -1,0 +1,139 @@
+.cart-page .item-wrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.item-info {
+  display: flex;
+}
+
+.cart-wrap {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-info .item-title {
+  margin-left: 12px;
+  line-height: 16px;
+}
+
+.item-title p {
+  margin-left: 12px;
+  line-height: 16px;
+}
+
+.item-title .fresh_hero {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333ed;
+}
+
+.cart_hero .cart-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-top: 1px solid #eeeeee;
+}
+
+.cart-title h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cart {
+  padding-top: 70px;
+}
+
+.cart-total-wrap {
+  margin-top: -15px;
+  padding: 15px;
+  background-color: #f7f7f7;
+  position: sticky;
+  top: 0;
+  margin-left: 22px;
+}
+
+.cart-sub-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.country_hero {
+  padding: 8px 10px;
+  border: 1px solid #eeeeee;
+  background-color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  width: 100%;
+  outline: 0px;
+}
+
+label {
+  /* font-size: 20px; */
+  /* margin-bottom: 5px; */  
+  padding: 2px;
+}
+
+.culculate-shipping {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.product-quantity {
+  position: relative;
+}
+
+.cart-sub_hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-cart {
+  gap: 111px;
+  /* left: 60%; */
+  justify-content: space-around;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  /* position: absolute; */
+  padding: 10px;
+  border-radius: 6px;
+  /* top: 68%;
+  margin: auto; */
+  z-index: 999;
+}
+.progress-bar {
+  height: 4px;
+  background-color: white;
+  width: 93%;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -9px;
+}
+
+.progress-bar-value {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(5, 114, 206);
+  animation: indeterminateAnimation 1s infinite linear;
+  transform-origin: 0% 50%;
+}
+@keyframes indeterminateAnimation {
+  0% {
+    transform: translateX(0) scaleX(0);
+  }
+  100% {
+    transform: translateX(100%) scaleX(0.5);
+  }
+}

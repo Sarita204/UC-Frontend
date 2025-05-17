@@ -1,0 +1,24 @@
+.log-0{
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-dif{
+    padding: 45px;
+    padding: 45px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: white;
+    position: relative;
+    border-top-left-radius: 101px;
+}
+.input-log{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    padding: 14px 25px; 
+    width:100%; 
+}
